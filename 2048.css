@@ -1,0 +1,80 @@
+body {
+    font-family: "Courier New", "Lucida Console", monospace;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #e34234;
+    border: 6px solid #f28379;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #f28379;
+}
+
+/* colored tiles */
+
+.x2 {
+   background-image: URL("data/1.jpg");
+}
+
+.x4 {
+    background-image: URL("data/2.jpg");
+}
+
+.x8 {
+    background-image: URL("data/3.jpg");
+}
+
+.x16{
+    background-image: URL("data/4.jpg");
+}
+
+.x32{
+    background-image: URL("data/5.jpg");
+}
+
+.x64{
+    background-image: URL("data/6.jpg");
+}
+
+.x128{
+    background-image: URL("data/7.jpg");
+}
+
+.x256{
+    background-image: URL("data/8.jpg");
+}
+
+.x512{
+    background-image: URL("data/9.jpg");
+}
+
+.x1024{
+    background-image: URL("data/10.jpg");
+}
+
+.x2048{
+    background-image: URL("data/11.jpg");
+}
+
+.x4096 {
+    background-image: URL("data/win.jpg");
+}
+
+.x8192 {
+    background-image: URL("data/win.jpg");
+}
